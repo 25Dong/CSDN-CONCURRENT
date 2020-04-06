@@ -9,12 +9,16 @@ import lombok.extern.slf4j.Slf4j;
  * @Version: 3.00.001
  * @Copyright : 豆浆油条个人非正式工作室
  */
-@Slf4j
-public class Test {
+
+public  class   Test {
+
 
 
 
     public static void main(String[] args) {
-       Double oD = 3d;
+        String str =
+                "";
+        String[] split = str.split(",");
+        System.out.print(str.split(",").length);
     }
 }
