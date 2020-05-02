@@ -1,4 +1,4 @@
-package com.mark.csdn.concurrent.immutable;
+package com.mark.csdn.concurrent.immutable.finalkeywork;
 
 /**
  * @Description: 面试题2：final修饰变量是根据方法赋值
