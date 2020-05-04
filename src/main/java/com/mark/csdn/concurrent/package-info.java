@@ -21,5 +21,8 @@
  *
  *  2-3 有序性（synchronized、volatile保证了有序性）
  *
+ * 第三章 安全发布对象
+ *  3-1 安全发布对象与对象逸出{@link com.mark.csdn.concurrent.publish}
+ *  3-2 通过单例实现安全发布对象{@link com.mark.csdn.concurrent.publish}
  */
 package com.mark.csdn.concurrent;
