@@ -27,7 +27,7 @@
  *
  * 第四章 线程安全策略
  *  4-1 不可变对象 {@link com.mark.csdn.concurrent.immutable}
- *  4-2 线程封闭 todo
+ *  4-2 线程封闭 {@link com.mark.csdn.concurrent.threadlocal}
  *  4-3 常见线程不安全的类与对应线程安全的类
  */
 package com.mark.csdn.concurrent;
