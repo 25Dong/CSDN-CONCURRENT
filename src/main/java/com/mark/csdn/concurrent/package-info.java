@@ -29,5 +29,9 @@
  *  4-1 不可变对象 {@link com.mark.csdn.concurrent.immutable}
  *  4-2 线程封闭 {@link com.mark.csdn.concurrent.threadlocal}
  *  4-3 常见线程不安全的类与对应线程安全的类 {@link com.mark.csdn.concurrent.commonunsafe}
+ *
+ *  第五章 线程基础
+ *  4-1 死锁 {@link com.mark.csdn.concurrent.deadLock}
+ *  4-2 Thread类中常用的方法 {@link com.mark.csdn.concurrent.thread}
  */
 package com.mark.csdn.concurrent;
