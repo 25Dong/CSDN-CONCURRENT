@@ -1,4 +1,4 @@
-package com.mark.csdn.concurrent.threadPool;
+package com.mark.csdn.concurrent.threadPool.common;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @Description:
+ * @Description: 演示在newSingleThreadExecutor线程池中，当线程池中的工作线程发生异常或者停止时候会启动一个新的线程
  * @Author: Mark
  * @CreateDate: 2020/4/5 11:50
  * @Version: 3.00.001

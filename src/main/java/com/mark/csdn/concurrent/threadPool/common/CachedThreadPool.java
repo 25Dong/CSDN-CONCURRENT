@@ -1,4 +1,4 @@
-package com.mark.csdn.concurrent.threadPool;
+package com.mark.csdn.concurrent.threadPool.common;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @Description: 缓存的线程池
+ * @Description: 具有缓存的线程池,适用于执行时间很短的大量任务
  * @Author: Mark
  * @CreateDate: 2020/4/5 16:53
  * @Version: 3.00.001
@@ -21,6 +21,7 @@ public class CachedThreadPool {
             final int num = i;
             executorService.execute(() -> log.info("task:{}",num));
         }
-        executorService.shutdown();//关闭线程池
+        //关闭线程池
+        executorService.shutdown();
     }
 }

@@ -10,7 +10,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @Description: 自定义线程池
+ * @Description: 自定义线程池,演示每个任务执行前后放钩子函数(该类在源码的类知识上)
  * @Author: Mark
  * @CreateDate: 2020/4/6 10:35
  * @Version: 3.00.001

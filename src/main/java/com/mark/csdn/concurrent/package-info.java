@@ -31,7 +31,10 @@
  *  4-3 常见线程不安全的类与对应线程安全的类 {@link com.mark.csdn.concurrent.commonunsafe}
  *
  *  第五章 线程基础
- *  4-1 死锁 {@link com.mark.csdn.concurrent.deadLock}
- *  4-2 Thread类中常用的方法 {@link com.mark.csdn.concurrent.thread}
+ *  5-1 死锁 {@link com.mark.csdn.concurrent.deadLock}
+ *  5-2 Thread类中常用的方法 {@link com.mark.csdn.concurrent.thread}
+ *
+ *  第六章 JUC
+ *  6-1 线程池 {@link com.mark.csdn.concurrent.threadPool}
  */
 package com.mark.csdn.concurrent;

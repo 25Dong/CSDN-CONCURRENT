@@ -1,4 +1,4 @@
-package com.mark.csdn.concurrent.threadPool;
+package com.mark.csdn.concurrent.threadPool.common;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
