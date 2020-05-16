@@ -38,5 +38,6 @@
  *  6-1 线程池 {@link com.mark.csdn.concurrent.threadPool}
  *  6-2 Future {@link com.mark.csdn.concurrent.future}
  *  6-3 原子类 {@link com.mark.csdn.concurrent.atomic}
+ *  6-4 locks {@link com.mark.csdn.concurrent.aqs.locks,com.mark.csdn.concurrent.lock}
  */
 package com.mark.csdn.concurrent;

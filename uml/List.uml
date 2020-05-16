@@ -101,6 +101,12 @@
       <point x="564.4958333333335" y="329.0" />
       <point x="-24.0" y="31.5" />
     </edge>
+    <edge source="java.util.Collections.SynchronizedList" target="java.util.Collections.SynchronizedCollection">
+      <point x="60.0" y="-31.5" />
+      <point x="1359.5395833333334" y="660.0" />
+      <point x="1403.7458333333334" y="660.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
     <edge source="java.util.Collections.SynchronizedList" target="java.util.List">
       <point x="-60.0" y="-31.5" />
       <point x="1239.5395833333334" y="660.0" />
@@ -108,12 +114,6 @@
       <point x="1237.2458333333334" y="319.0" />
       <point x="628.4958333333335" y="319.0" />
       <point x="40.0" y="31.5" />
-    </edge>
-    <edge source="java.util.Collections.SynchronizedList" target="java.util.Collections.SynchronizedCollection">
-      <point x="60.0" y="-31.5" />
-      <point x="1359.5395833333334" y="660.0" />
-      <point x="1403.7458333333334" y="660.0" />
-      <point x="0.0" y="31.5" />
     </edge>
     <edge source="java.util.AbstractCollection" target="java.util.Collection">
       <point x="0.0" y="-31.5" />
