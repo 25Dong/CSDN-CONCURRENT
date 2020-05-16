@@ -12,6 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @CreateDate: 2020/3/25 15:31
  * @Version: 3.00.001
  * @Copyright : 豆浆油条个人非正式工作室
+ * 总结：对比非原子类的线程安全问题，使用了原子类之后，不需要加锁，也可以保证线程安全。
  *
  * @see java.util.concurrent.atomic.AtomicInteger
  */
