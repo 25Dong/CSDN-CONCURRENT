@@ -17,7 +17,8 @@ public class InterruptedExample1 {
         Thread thread = new Thread(()->{
             for(int i=0; i<100 ;i++){
                 System.out.println("I'm doing my work");
-                System.out.println("I'm interrupted?"+Thread.currentThread().isInterrupted());
+                //System.out.println("I'm interrupted?"+Thread.currentThread().isInterrupted());
+                System.out.println("I'm interrupted?"+Thread.interrupted());
             }
         });
         thread.start();

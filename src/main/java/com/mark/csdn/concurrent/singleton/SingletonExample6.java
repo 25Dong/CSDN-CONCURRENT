@@ -25,4 +25,10 @@ public class SingletonExample6 {
     public static SingletonExample6 getInstance() {
         return instance;
     }
+
+    public static void main(String[] args) {
+        SingletonExample6 instance = SingletonExample6.getInstance();
+        System.out.println(instance);
+    }
+
 }

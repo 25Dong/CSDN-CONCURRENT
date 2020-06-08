@@ -36,6 +36,6 @@ public class SingletonExample7 {
         public SingletonExample7 getInstance() {
             return instance;
         }
-
     }
+
 }

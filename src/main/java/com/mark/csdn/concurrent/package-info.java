@@ -23,7 +23,7 @@
  *
  * 第三章 安全发布对象
  *  3-1 安全发布对象与对象逸出{@link com.mark.csdn.concurrent.publish}
- *  3-2 通过单例实现安全发布对象{@link com.mark.csdn.concurrent.publish}
+ *  3-2 通过单例实现安全发布对象{@link com.mark.csdn.concurrent.singleton}
  *
  * 第四章 线程安全策略
  *  4-1 不可变对象 {@link com.mark.csdn.concurrent.immutable}

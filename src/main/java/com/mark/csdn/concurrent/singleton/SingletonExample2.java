@@ -4,7 +4,7 @@ package com.mark.csdn.concurrent.singleton;
 import com.mark.csdn.concurrent.annotations.ThreadSafe;
 
 /**
- * @Description: 懒汉模式实现单例，单例实例在类装载时进行创建
+ * @Description: 饿汉模式实现单例，单例实例在类装载时进行创建
  * @Author: Mark
  * @CreateDate: 2019/6/30 11:59
  * @Version: 3.00.001
