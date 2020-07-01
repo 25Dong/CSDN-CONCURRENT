@@ -18,7 +18,7 @@ public class SingletonExample4 {
     /**
      * 构造函数私有化，不允许外部实例化
      */
-    private SingletonExample4() {
+    private void SingletonExample4() {
     }
 
     /**
@@ -51,6 +51,8 @@ public class SingletonExample4 {
             }
         }
         return instance;
+
     }
+
 
 }

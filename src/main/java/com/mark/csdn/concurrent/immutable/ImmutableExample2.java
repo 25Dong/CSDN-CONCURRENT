@@ -22,12 +22,16 @@ public class ImmutableExample2 {
         map.put(1, 1);
         map.put(2, 1);
         map.put(3, 1);
-        map = Collections.unmodifiableMap(map);
+        //设置为不可变对象，此后map不能再添加属性
+       map = Collections.unmodifiableMap(map);
     }
 
     public static void main(String[] args) {
         // 抛出 java.lang.UnsupportedOperationException 异常
-        map.put(4, 2);
-        log.info("{}",map.get(4));
+
+        // 但是可以重新复制，因为不是final类型的
+        //map = new HashMap<>();
+        //map.put(4, 2);
+        //log.info("{}",map.get(4));
     }
 }
